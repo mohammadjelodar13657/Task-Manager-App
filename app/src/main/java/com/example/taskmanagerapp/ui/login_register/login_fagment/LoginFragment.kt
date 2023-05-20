@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import com.example.taskmanagerapp.R
 import com.example.taskmanagerapp.databinding.FragmentLoginBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LoginFragment : Fragment() {
 
     private lateinit var dataBinding: FragmentLoginBinding
